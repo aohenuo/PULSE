@@ -1,0 +1,13 @@
+task: layer_a_selection
+datasets: [agnews, rest14, lap14, emoc]
+model: google/gemma-2-2b
+sae_release: gemma-scope-2b-pt-res-canonical
+layer: 12
+seed: 42
+n_shot: 4
+disc_queries: 64
+eval_queries: 512
+pool_size: 2000
+n_candidates: 48
+methods: [pulse]
+beta: 0.3
