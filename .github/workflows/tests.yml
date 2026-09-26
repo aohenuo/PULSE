@@ -1,0 +1,27 @@
+name: Tests and package
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python: ['3.10', '3.12']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '${{ matrix.python }}'
+      - run: python -m pip install --upgrade pip
+      - run: python -m pip install torch --index-url https://download.pytorch.org/whl/cpu
+      - run: python -m pip install -e '.[dev]'
+      - run: python -m pytest
+      - run: python -m build
+      - name: Test installed wheel outside checkout
+        run: |
+          python -m pip uninstall -y pceu-rtr-core
+          python -m pip install --no-deps dist/*.whl
+          cd "$RUNNER_TEMP"
+          pulse-select "$GITHUB_WORKSPACE/examples/tiny.json" --n-shot 2
+          python -c 'from pceu_rtr.data import load_examples; from pceu_rtr.evaluate import default_eval_data; assert len(load_examples(default_eval_data("agnews"), "agnews")) == 512'

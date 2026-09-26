@@ -1,0 +1,513 @@
+index	text	gold
+124	Aspect: owner | Sentence: Same owner as the guy who owns Typhoon, which is just down the street on St. Marks and 1st Ave.	Neutral
+205	Aspect: front door | Sentence: Delicious food at a great price but do not go here on a cold day and sit by the front door.	Neutral
+484	Aspect: drink | Sentence: If you're looking for a place to sit down, have a drink and conversations with friends, go to sweet-n-tart and order yourself a hong-kong styled milk and tea with tapioca pearls (hot).	Neutral
+520	Aspect: staff | Sentence: While the staff at this little bistro is very friendly, I have never experienced more incompetency.	Positive
+581	Aspect: waitress | Sentence: When we were finally seated our waitress came by twice-1 for our order and 2-for our check.	Negative
+633	Aspect: atmosphere | Sentence: I don't know about you guys, but when I go somewhere to eat I go for the food not for the atmosphere.	Neutral
+701	Aspect: fat | Sentence: Food was very good as well, considering that we tried the budget selection (though I wish the pork belly that I ordered was roasted a bit longer, so that fat was more of a melt-in-your-mouth experience).	Negative
+43	Aspect: containers for condiments | Sentence: As we were sitting eating the subpar food the manager proceeded to berate a couple of his employees for putting out the wrong containers for condiments and explained to them how expensive these containers were.	Negative
+92	Aspect: Staffs | Sentence: Staffs are not that friendly, but the taste covers all.	Negative
+128	Aspect: Peter's Favourite pizza with prosciutto and baby arugula | Sentence: - the bread at the beginning is super tasty and makes you want more - the pizza is delicious and comes in personal sizes, however be warned that the Peter's Favourite pizza with prosciutto and baby arugula is actually a margarite pizza with cold prosciutto and baby arugula on top, like a salad.	Neutral
+160	Aspect: drink | Sentence: I would recommend putting your name down and then getting a drink at a local bar first though because of the wait time.	Neutral
+267	Aspect: menu | Sentence: One of the earlier people commenting on the restaurant did not get the that some experimenting is going on with the menu in a positive way.	Positive
+394	Aspect: service | Sentence: The service was typical short-order, dinner type.	Neutral
+544	Aspect: spot | Sentence: Total hipster-wannabe attitude in an otherwise sweet spot.	Positive
+601	Aspect: room | Sentence: While the room is not particularly comfortable, once you're seated you'll forget about everything except what's on your plate.	Negative
+654	Aspect: lunch | Sentence: The prices are about $9 for an entree for dinner and even less for lunch.	Positive
+27	Aspect: meal | Sentence: (food was delivered by a busboy, not waiter) We got no cheese offered for the pasta, our water and wine glasses remained EMPTY our entire meal, when we would have easily spent another $20 on wine.	Neutral
+176	Aspect: food | Sentence: On the other hand, if you are not fooled easily, you will find hundreds of restaurants that will give you service and ambiance that is on par with Alain Ducasse, and food that will outshine in presentaion, taste, choice, quality and quantity.	Negative
+232	Aspect: entree | Sentence: The prices are about $9 for an entree for dinner and even less for lunch.	Positive
+300	Aspect: grilled cheese | Sentence: The grilled cheese at home afterwards was better.!!	Positive
+313	Aspect: entree | Sentence: Waiters tend to forget drinks completely, food portions are so tiny, two people have trouble sharing one entree.	Negative
+371	Aspect: waiter | Sentence: As we were leaving, the couple standing by the door said to another waiter, we're not in a hurry.	Neutral
+380	Aspect: place | Sentence: Restaurant snobs need not bother, this is a small, neighborhood kind of place.	Positive
+392	Aspect: cuisine | Sentence: If you're not familiar with the cuisine, you may encounter problems ordering here and be sure to bring plenty of cash with you as they don't accept credit cards.	Negative
+504	Aspect: apples | Sentence: We began with the cheese fondue (the artisanal blend) and added apples and kielbasa to dip.	Neutral
+95	Aspect: food | Sentence: To be completely fair, the only redeeming factor was the food, which was above average, but couldn't make up for all the other deficiencies of Teodora.	Positive
+172	Aspect: walls | Sentence: The puke green walls leave a lot to be desired, but the food is very good.	Negative
+198	Aspect: staff | Sentence: The staff is no nonsense.	Positive
+217	Aspect: donut like deep fried dough they call Ow Ley Soh | Sentence: Try the congee and the donut like deep fried dough they call Ow Ley Soh, a delicious and sweet tasting bread.	Positive
+223	Aspect: tables | Sentence: The wait here is long for dim sum, but if you don't like sharing tables or if the typical raucous dim sum atmosphere is not your gig, this is a sleek (for Chinatown) alternative.	Positive
+337	Aspect: green curry with vegetables | Sentence: Try green curry with vegetables.	Positive
+424	Aspect: food spot | Sentence: As a long-time patron of Mamoun's, I always figured that I had found the best late night food spot in the city.	Positive
+434	Aspect: food | Sentence: I have been a longtime fan of Holy Basil in the East Village, and while I do believe their food has slightly slipped in quality, I have been hesitant to be disloyal.	Negative
+435	Aspect: seating | Sentence: There is also very limited seating and there can be a substantial wait in getting food at peak times.	Negative
+437	Aspect: classical furniture | Sentence: While the new restaurant still features much of the same classical furniture that made Tiffin so attractive, the menu has been overhauled.	Positive
+447	Aspect: seats | Sentence: The seats are uncomfortable if you are sitting against the wall on wooden benches.	Negative
+480	Aspect: owner | Sentence: It appears to be the owner's first venture and it shows.	Negative
+482	Aspect: meal | Sentence: If you'd like to have a nice light meal with an asian accent, Long Tan is a good place on the slope.	Positive
+15	Aspect: wine | Sentence: I had a terrific meal, and our server guided us toward a very nice wine in our price range, instead of allowing us to purchase a similarly priced wine that wasn't as good.	Positive
+34	Aspect: food | Sentence: Taj Mahal offeres gret value and great food.	Positive
+71	Aspect: menu | Sentence: Try ordering from the regular menu, then you would not regret!	Positive
+88	Aspect: guy | Sentence: The only friendly staff member was the guy at the bar.	Positive
+120	Aspect: waterbugs | Sentence: I've lived in NYC all my life and had never before seen so many waterbugs in one place (except in a really bad dream).	Negative
+215	Aspect: prices | Sentence: They have authentic Indian at amazin prices.	Positive
+221	Aspect: beef version | Sentence: It was not above ordinary and the beef version had cheap (undercooked) beef.	Negative
+244	Aspect: appetizer | Sentence: I must warn the reader that the portions sizes are very small (especially the appetizers), so if you plan to eat until you are full and do not intend to order the chef's special tasting menu, prepare to order and pay for an appetizer (1 dish for each person because the portions are not for sharing), a main entree, and the cold udon at the end of the meal.	Negative
+263	Aspect: manager | Sentence: As we were sitting eating the subpar food the manager proceeded to berate a couple of his employees for putting out the wrong containers for condiments and explained to them how expensive these containers were.	Negative
+273	Aspect: lunch | Sentence: It's great to go for a quick lunch either alone or with a friend.	Positive
+296	Aspect: delivery | Sentence: Faan's got a great concept but a little rough on the delivery.	Negative
+421	Aspect: regular menu-fare | Sentence: The food is delicious - from the specials to the regular menu-fare, the dishes are never a disappointment.	Positive
+433	Aspect: manager | Sentence: night without a reservation, we had to wait at the bar for a little while, but the manager was so nice and made our wait a great experience.	Positive
+457	Aspect: herb mix | Sentence: Barbecued codfish was gorgeously moist - as if poached - yet the fabulous texture was let down by curiously bland seasoning - a spice rub might have overwhelmed, however herb mix or other sauce would have done much to enhance.	Negative
+472	Aspect: toppings | Sentence: The plain slice is great and if you get toppings, the whole slice is topped with them, not sparsely sprinkled on like some places.	Positive
+489	Aspect: bar | Sentence: night without a reservation, we had to wait at the bar for a little while, but the manager was so nice and made our wait a great experience.	Neutral
+522	Aspect: sushi | Sentence: The sushi is average and the prices are anything but.	Neutral
+535	Aspect: plate | Sentence: While the room is not particularly comfortable, once you're seated you'll forget about everything except what's on your plate.	Positive
+550	Aspect: reservations | Sentence: i would recommend reservations on weekends though.	Neutral
+566	Aspect: dinner | Sentence: It is kinda nosiy and the tables are close together but it's still a beautiful place to enjoy a nice dinner.	Positive
+598	Aspect: bills | Sentence: Oh, don't even let me start with how expensive the bills were!	Negative
+625	Aspect: price | Sentence: The food is reliable and the price is moderate.	Neutral
+720	Aspect: scene | Sentence: If I wanted to deal with a crappy scene and annoying customers I'd go out in Manhattan.	Negative
+3	Aspect: Bombay beer | Sentence: I started out with a Bombay beer which was big enough for two.	Positive
+10	Aspect: appetizer | Sentence: We could only get through an appetizer and cheese fondue.	Neutral
+20	Aspect: drink | Sentence: The space is nice but when we order our drink we were in for a surprise.	Negative
+97	Aspect: appetizers | Sentence: Went on a double date with friend and his girlfriend for a few drinks and appetizers.	Neutral
+102	Aspect: menu | Sentence: The staff is very kind and well trained, they're fast, they are always prompt to jump behind the bar and fix drinks, they know details of every item in the menu and make excelent recomendations.	Neutral
+105	Aspect: food | Sentence: Service and food is what any one would expect when spending that type of money.	Neutral
+157	Aspect: Blue Fin Torro (Fatty Tuna) | Sentence: Aside from the Sea Urchin, the chef recommended an assortment of fish including Fatty Yellow Tail, Boton Shrimp, Blue Fin Torro (Fatty Tuna), Sea Eel, etc.	Neutral
+188	Aspect: sauce | Sentence: Barbecued codfish was gorgeously moist - as if poached - yet the fabulous texture was let down by curiously bland seasoning - a spice rub might have overwhelmed, however herb mix or other sauce would have done much to enhance.	Negative
+194	Aspect: wine flight | Sentence: We ate here in March, 2006 and ordered the pre-theatre 3-course dinner with wine flight.	Neutral
+199	Aspect: garlic naan | Sentence: The sweet lassi was excellent as was the lamb chettinad and the garlic naan but the rasamalai was forgettable.	Positive
+251	Aspect: appetizers | Sentence: I must warn the reader that the portions sizes are very small (especially the appetizers), so if you plan to eat until you are full and do not intend to order the chef's special tasting menu, prepare to order and pay for an appetizer (1 dish for each person because the portions are not for sharing), a main entree, and the cold udon at the end of the meal.	Negative
+369	Aspect: waiters | Sentence: Our agreed favorite is the orrechiete with sausage and chicken (usually the waiters are kind enough to split the dish in half so you get to sample both meats).	Positive
+458	Aspect: burger | Sentence: While certain staples are excellent (the burger, some of the pastas), the food is not really the point.	Positive
+478	Aspect: burger | Sentence: The menu was impressive with selections ranging from a burger, to steak, to escargot.	Neutral
+481	Aspect: food | Sentence: The puke green walls leave a lot to be desired, but the food is very good.	Positive
+519	Aspect: employees | Sentence: As we were sitting eating the subpar food the manager proceeded to berate a couple of his employees for putting out the wrong containers for condiments and explained to them how expensive these containers were.	Negative
+672	Aspect: trout | Sentence: We started with lox and mussels (the best ive ever had, ever) and had the cod and trout for dinner.	Neutral
+680	Aspect: place | Sentence: We parked on the block of Nina's the place looked nice, with people obviously enjoying their pizzas.	Positive
+684	Aspect: appetizers | Sentence: we were tired and cold when we got to the restaurant, then we sat down to begin ordering appetizers.	Neutral
+707	Aspect: traffic noise | Sentence: It is set far from the small street it's on, and there is no traffic noise.	Positive
+0	Aspect: pub | Sentence: But the thing that my wife and I hated was it was so loud and it felt like 'bar' or 'pub'.	Negative
+13	Aspect: snapple | Sentence: Nothing better than buying a snapple for $3.25 too.	Positive
+19	Aspect: food | Sentence: I like Mamoun's food as well, but side by side, Kati Rolls just produce tastier food hands down.	Positive
+26	Aspect: staff | Sentence: The staff has always been friendly without seeming grating, and the chef has greeted us on a couple of occasions.	Positive
+28	Aspect: dhosas | Sentence: I like the somosas, chai, and the chole, but the dhosas and dhal were kinda dissapointing.	Negative
+41	Aspect: food | Sentence: i've been to sapphire twice and both times the food was fine, if not good.	Positive
+47	Aspect: food | Sentence: The food was just OK, at least for what food was available.	Neutral
+51	Aspect: service | Sentence: While the food was good (certainly no Il Mulino) the service was horrendous.	Negative
+60	Aspect: food | Sentence: I had been a regular due to the consistently good food and ease of getting a table.	Positive
+67	Aspect: service | Sentence: With so many good restaurants on the UWS, I don't need overpriced food, absurdly arrogant wait-staff who don't recognize they work at a glorified diner, clumsy service, and management that doesn't care.	Negative
+75	Aspect: dinner | Sentence: Three of us arrived for dinner about 5:30 on a week night without reservations.	Neutral
+90	Aspect: menu | Sentence: Also, don't plan on asking for your favorite roll, if it's not on the menu, you can't have it.	Negative
+112	Aspect: food | Sentence: My friend's food was also the complete opposite of what it's supposed to taste like (aND look like).	Negative
+138	Aspect: nebbiolo | Sentence: kalbi and nebbiolo do work together.	Neutral
+167	Aspect: salmon caserole | Sentence: Interesting other dishes for a change include chicken in curry sauce and salmon caserole.	Positive
+173	Aspect: dishes | Sentence: The menu is limited but almost all of the dishes are excellent.	Positive
+202	Aspect: fish and chips | Sentence: Other guests enjoyed pizza, santa fe chopped salad and fish and chips.	Positive
+207	Aspect: food | Sentence: While Sapphire is certainly not lacking in ambiance, and probably has the best decor of any Indian restaurant I have been to in New York City, the food was not what I had hoped for.	Negative
+208	Aspect: owner | Sentence: Has the chef and owner changed???	Neutral
+213	Aspect: flavor | Sentence: The menu choices are similar but the taste lacked more flavor than it looked.	Negative
+220	Aspect: wait | Sentence: Food was good not great not worth the wait or another visit	Negative
+222	Aspect: Indian food | Sentence: I love Indian food and consider myself to be quite an expert on it.	Positive
+226	Aspect: place | Sentence: Lucky Strike is a great casual place to just grab a bite to eat.	Positive
+229	Aspect: expresso | Sentence: One of us actually liked the expresso - that's it.	Positive
+255	Aspect: portions | Sentence: Simple comfort food and what hot and lage portions.	Positive
+275	Aspect: Thai food | Sentence: For authentic Thai food, look no further than Toons.	Positive
+278	Aspect: apppetizers | Sentence: Unique apppetizers.	Positive
+285	Aspect: check | Sentence: And at the conclusion of this culinary nightmare the check was given to our table by knocking over a glass of water.	Neutral
+295	Aspect: service | Sentence: sometimes i get bad food and bad service, sometimes i get good good and bad service.	Negative
+308	Aspect: General Tao chicken | Sentence: If your favorite Chinese food is General Tao chicken, then this is NOT your place.	Negative
+317	Aspect: meal | Sentence: The wine list is extensive and can easily hike up an otherwise reasonably priced meal.	Positive
+363	Aspect: dinner | Sentence: I'd call it an 'italian dinner'.	Neutral
+386	Aspect: chicken on rice with ginger | Sentence: If you want some roast duck, pork or chicken on rice with ginger, try them out!	Positive
+389	Aspect: getting a table | Sentence: Good luck getting a table.	Negative
+393	Aspect: bar | Sentence: It's also attached to Angel's Share, which is a cool, more romantic bar...	Positive
+438	Aspect: food | Sentence: Good food at the restaurant (a bit expensive, but great if you want to impress your date).	Positive
+441	Aspect: delivered | Sentence: All conveniently delivered right to the door.	Positive
+470	Aspect: prices | Sentence: Try the Pad Thai, it's fabulous and their prices are so cheap!	Positive
+473	Aspect: food | Sentence: We were in search of food and stumbled on this block of Indian restaurants on East Sixth Street.	Neutral
+485	Aspect: dinner | Sentence: I have been here a few times for dinner, once for brunch and twice for lunch.	Neutral
+496	Aspect: prices | Sentence: In addition, the food is very good and the prices are reasonable.	Positive
+510	Aspect: Shanghai low mein | Sentence: My wife and I also enjoyed the spinach, the Shanghai low mein, and other attractions.	Positive
+511	Aspect: waiting | Sentence: It saves walking in and waiting for a table in the often noisy, crowded bar at dinnertime.	Negative
+528	Aspect: service | Sentence: Great food (spinach and corn dumplings and massamman curry), very friendly and no nonsense service and a clean and funky bathroom.	Positive
+530	Aspect: prices | Sentence: Although be warned their dinner menu to sit and take out prices are different.	Neutral
+537	Aspect: food | Sentence: great wine list (italian), good food, service was INITIALLY fine.	Positive
+561	Aspect: food | Sentence: I am not sure if I would call the food here Indian as it is a fusion of what seems to be French with an Indian or exotic touch.	Neutral
+1	Aspect: lox | Sentence: We started with lox and mussels (the best ive ever had, ever) and had the cod and trout for dinner.	Positive
+2	Aspect: ingredients | Sentence: They don't seem to place an emphasis on specials or fresh ingredients which to me is necessary for good thai.	Negative
+4	Aspect: place | Sentence: While the place is not a hotspot hangout, the drinks are unique and pack a lot of bang for the buck.	Negative
+5	Aspect: beers | Sentence: The have over 100 different beers to offer thier guest so that made my husband very happy and the food was delicious, if I must recommend a dish it must be the pumkin tortelini.	Positive
+7	Aspect: sauce | Sentence: the food was undercooked-the sauce watery, and the vegetables raw.	Negative
+8	Aspect: food | Sentence: In addition, the food is very good and the prices are reasonable.	Positive
+9	Aspect: fish | Sentence: The fish was not fresh and the rice tasted old and stale.	Negative
+12	Aspect: shrimp scampi | Sentence: The shrimp scampi was excellent and the antipasti were plentiful.	Positive
+14	Aspect: Barbecued codfish | Sentence: Barbecued codfish was gorgeously moist - as if poached - yet the fabulous texture was let down by curiously bland seasoning - a spice rub might have overwhelmed, however herb mix or other sauce would have done much to enhance.	Positive
+23	Aspect: fries | Sentence: The highlight of the night was the mayonaisse for my side of fries I received from one of the food runners, which is not good considering the bill was nearly $100.	Negative
+24	Aspect: seat | Sentence: Only complaint would be that at an average cost of $12-$15 per meal, I'd like not to have to worry about finding a seat!	Negative
+25	Aspect: service | Sentence: Interesting selection, good wines, service fine, fun decor.	Positive
+30	Aspect: service | Sentence: The service was ok.	Neutral
+35	Aspect: busboy | Sentence: (food was delivered by a busboy, not waiter) We got no cheese offered for the pasta, our water and wine glasses remained EMPTY our entire meal, when we would have easily spent another $20 on wine.	Negative
+36	Aspect: service | Sentence: The service was the only thing good about this restaurant.	Positive
+37	Aspect: servers | Sentence: The servers give you some sample slices of your order while you wait (shortly I might add).	Positive
+38	Aspect: wait staff | Sentence: The wait staff is pleasant, fun, and for the most part gorgeous (in the wonderful aesthetic beautification way, not in that she's-way-cuter-than-me-that-b@#$* way).	Positive
+40	Aspect: turnip cake | Sentence: A few tips: skip the turnip cake, roast pork buns and egg custards.	Negative
+42	Aspect: cheescake | Sentence: I have never had cheescake like this.	Positive
+44	Aspect: design | Sentence: The design and atmosphere is just as good.	Positive
+45	Aspect: fries | Sentence: The food is yummy, especially their cooked-to-perfection mussels in spicy tomato sauce and their shoestring crispy fries.	Positive
+46	Aspect: red curry | Sentence: The red curry is weak and tasteless, the pad thai is stuck together and lumpy, the rice is often overcooked, and the seafood is pretty sketchy.	Negative
+48	Aspect: beers | Sentence: Wow over 100 beers to choose from.	Positive
+49	Aspect: food | Sentence: The food was amazing, the service was so attentive and personable, and how about that ambience!	Positive
+50	Aspect: service | Sentence: When we sat, we got great and fast service.	Positive
+53	Aspect: food | Sentence: It's constantly open, catering to the Pakistani cabbies lined up on Crosby St., so there's more turnover with the food than you'd expect (i.e., surprisingly fresh).	Positive
+55	Aspect: price | Sentence: Service was devine, oysters where a sensual as they come, and the price can't be beat!!!	Positive
+56	Aspect: price | Sentence: Nothing fancy but really good food with pretty reasonable price.	Positive
+58	Aspect: crab dumplings | Sentence: We are very particular about sushi and were both please with every choice which included: ceviche mix (special), crab dumplings, assorted sashimi, sushi and rolls, two types of sake, and the banana tempura.	Positive
+59	Aspect: Kamikaze | Sentence: Their sushi, Kamikaze and other Rolls are fresh and well presented.	Positive
+62	Aspect: Food | Sentence: Food was average and creme brulee was awful - the sugar was charred, not caramelized and smelled of kerosene.	Neutral
+63	Aspect: table | Sentence: One thing I liked about this place is that I never felt rushed or pressured to give up my table ot incoming guests.	Neutral
+64	Aspect: seasoning | Sentence: Really though, where's the seasoning?	Negative
+65	Aspect: cuisine | Sentence: While this isn't classical restaurant fare, the chef has given new life to an old cuisine with some really innovative and tasty dishes that are genuinely Indian without being heavy or same old restaurant burn-outs.	Neutral
+66	Aspect: owner | Sentence: Plus, when our entrees were held up in the kitchen on a busy Saturday night, the owner sent over complimentary summer rolls to hold us over!	Positive
+72	Aspect: steak | Sentence: The steak was very fatty and the sauce was overpowering and not very tasty.	Negative
+73	Aspect: place | Sentence: Unless you are eating in the Pizzeria side of this place, and are not in a rush, this place is a bad idea.	Negative
+74	Aspect: barebecued salmon | Sentence: The barebecued salmon is elegantly spiced and not at all dry.	Positive
+76	Aspect: decor | Sentence: Don't waste money on decor.	Neutral
+77	Aspect: service | Sentence: The service, wine selection, ambiance are all outstanding and deserve recognition.	Positive
+80	Aspect: Fish | Sentence: Fish is so very fresh.	Positive
+81	Aspect: Spicy Scallop roll | Sentence: Make sure you have the Spicy Scallop roll.. .	Positive
+83	Aspect: waiter | Sentence: Truly the mark of an attentive waiter.	Positive
+84	Aspect: meal | Sentence: Only complaint would be that at an average cost of $12-$15 per meal, I'd like not to have to worry about finding a seat!	Neutral
+86	Aspect: dish | Sentence: When asked about how a certain dish was prepared in comparison to a similar at other thai restaurants, he replied this is not Mcdonald's, every place makes things differently While it is understandable that every place is indeed different, there was not a need to be uncourteous to customers and downright rude.	Neutral
+91	Aspect: Margarita | Sentence: Their Margarita is best I've had since I've returned from Naples!	Positive
+93	Aspect: quality of food | Sentence: all the food was excellent - considering the quality of food in most moderately priced restaurants is mediocre this was slightly more pricey and well worth it.	Positive
+94	Aspect: wait staff | Sentence: Nha Trang, while being notorious for utter lack of comfort and decor, horribly slow wait staff and horribly quick meals, is one of the best vietnamese restaurants i've ever been to. the pho is delicious and comes with very fresh vegtables.	Negative
+96	Aspect: taste | Sentence: As I made the title, it's an affordable restaurant for great taste.	Positive
+100	Aspect: salads | Sentence: you can actually get 2 salads worth if u take it home and add it to some lettuce!	Negative
+101	Aspect: seating | Sentence: The place is a little tight and on a cold day, the seating by the entranceway can be pretty drafty.	Negative
+103	Aspect: service | Sentence: The service was excellent and the food was delicious.	Positive
+104	Aspect: bagel | Sentence: The workers there also absolutely load the bagel with cream cheese (gets a little messy).	Neutral
+106	Aspect: pizza | Sentence: The combination of fresh tomato sauce, fresh mozz cheese, basil and the dough they make with imported flour, makes this is one of the better pizza's in NY.	Positive
+107	Aspect: Asian appetizers | Sentence: Next time, we wouldn't dare ordering anything else other than some simple Asian appetizers and drinks.	Positive
+108	Aspect: salad | Sentence: Everything, from the soft bread, soggy salad, and 50 minute wait time, with an incredibly rude service to deliver below average food.	Negative
+110	Aspect: wine | Sentence: Their wines by the glass are a great accompaniment and you can eat like a king with wine for under $30.	Neutral
+111	Aspect: food | Sentence: It's a place for people who pay a lot for mediocre food, noise and a chance to be with their fellow bridge and tunnel folks.	Neutral
+116	Aspect: wine list | Sentence: The wine list is extensive and impressive.	Positive
+118	Aspect: business dinner | Sentence: If you can handle that, it's a great place for a business dinner, fun with friends or simply a table for 2.	Positive
+121	Aspect: pickles | Sentence: The pickles were great addition.	Positive
+122	Aspect: place | Sentence: The place is a BISTRO which means: simple dishes and wine served efficiently in a bustling atmosphere.	Positive
+123	Aspect: location | Sentence: Haru serves very fresh fish, has a trendy, modern ambiance, prime location on Park Avenue South and friendly service.	Positive
+126	Aspect: waiter | Sentence: The food was delicious and the waiter was incredibly helpful and attentive (considering we were the only ones there for the first hour).	Positive
+127	Aspect: taste | Sentence: The menu choices are similar but the taste lacked more flavor than it looked.	Negative
+129	Aspect: food | Sentence: You don't go to Mizu for excellent service, you go for the large amounts of food, the amiable atmosphere, and the hole-in-the-wall feeling of the place.	Positive
+131	Aspect: pizza | Sentence: The owners and employees are friendly and their pizza is fantastic.	Positive
+132	Aspect: hostess | Sentence: Also, the hostess called me today to thank us for coming and mentioned how she hoped that my girlfriend enjoyed her birthday - unexpected, but a truly above and beyond thing to do...	Positive
+133	Aspect: setting | Sentence: Cornelia Street looks like a Broadway set for West Side Story and the inside of Po is so cool quaint you really can't top the setting for a romantic dinner in NYC.	Positive
+134	Aspect: perks | Sentence: Not only was the food outstanding, but the little 'perks' were great.	Positive
+139	Aspect: specials | Sentence: The food is delicious - from the specials to the regular menu-fare, the dishes are never a disappointment.	Positive
+140	Aspect: dumpling menu | Sentence: We could have made a meal of the yummy dumplings from the dumpling menu.	Positive
+142	Aspect: pie | Sentence: He not only makes his own homemade mozzarella, but every pie is ultra fresh.	Positive
+143	Aspect: Indian dining experience | Sentence: I would highly recommend this place to anyone who is looking for a fine Indian dining experience that is definitely a value for your dollar.	Positive
+145	Aspect: vegetable juice | Sentence: my picks are: - Scallion Pancake (fried with vegetable juice, very special and tasty) - Guizhou Chicken - Shredded Squid Family Style (one of my personal favorites) - Sichuan Spicy Soft Shell Crab - Shuizhu Fish (this one is for hardcore Sichuan food fans, I wouldn't recommend to my American friends as it's very spicy.	Positive
+146	Aspect: food | Sentence: Great food, great decor, great service.	Positive
+148	Aspect: menu selections | Sentence: We were well attended to by the enthusiastic staff especially the manager Tony Gaskin who made excellent suggestions for our menu selections.	Positive
+151	Aspect: food | Sentence: Decor is nice and minimalist, food simple yet very well presented and cooked, and the wine list matches the food very well.	Neutral
+152	Aspect: food | Sentence: Lahore is a great place to duck into late-night when you need some really tasty food on the cheap -- you'll likely have trouble finishing the amount of food you get for FOUR DOLLARS.	Positive
+153	Aspect: Pelligrino | Sentence: We figured we never had Argentinian Pizza before so we grabbed our lunch there, sharing a large Pelligrino, a pizza of two of their specials, one was goat cheese the other blue cheese, and both were excellent.	Positive
+154	Aspect: pesto pizza | Sentence: The pesto pizza was excellent, thin-crust pizza with a nice amount of spicy Italian cheese that I'd never heard of before.	Positive
+155	Aspect: portion size | Sentence: If you are someone who appreciates simplicity, elegance, and wonderfully presented and tasting seafood and vegetables regardless of portion size, Kai is your place.	Negative
+158	Aspect: service | Sentence: The atmosphere is unheralded, the service impecible, and the food magnificant.	Positive
+159	Aspect: wine | Sentence: Very romantic fires - I've literally spent hours at Lanterna, drinking wine from their extensive wine and enjoying the ambience.	Positive
+161	Aspect: thai food | Sentence: So all I'm trying to say is this restaurant is by far the best thai food restaurant I've ever been to.	Positive
+162	Aspect: service | Sentence: The food was amazing, the service was so attentive and personable, and how about that ambience!	Positive
+166	Aspect: martini | Sentence: If it's just a quick martini at the bar (which I recommend Jeffery's) or a mind blowing Roast Chicken, go to Village!	Neutral
+168	Aspect: food | Sentence: There is also very limited seating and there can be a substantial wait in getting food at peak times.	Neutral
+169	Aspect: dessert | Sentence: Hopefully next time, I will save room for dessert.	Neutral
+170	Aspect: food | Sentence: They have it all -- great price, food, and service.	Positive
+171	Aspect: plates | Sentence: The food looked very appetizing and delicious since it came on a variety of fancy plates.	Positive
+175	Aspect: pizza | Sentence: brick oven gallery is My pick for best pizza restaurant anywhere.	Positive
+178	Aspect: bar | Sentence: It's the perfect restaurant for NY life style, it got cool design, awsome drinks and food and lot's of good looking people eating and hanging at the pink bar...	Neutral
+179	Aspect: owner | Sentence: The owner truly caters to all your needs.	Positive
+181	Aspect: dumplings | Sentence: but when we looked at the menu, there weren't a lot of choices, most of them were dumplings in the appetizer section.	Neutral
+183	Aspect: wine | Sentence: Our friendly server made great food suggestions and also sent both the sommelier and the fromager to the table to help suggest different pairings for wine and cheese.	Neutral
+187	Aspect: priced | Sentence: We usually just get some of the dinner specials and they are very reasonably priced and very tasty.	Positive
+189	Aspect: bill | Sentence: The waiters are sweet, the food is tasty and the bill is never too large.	Positive
+190	Aspect: kamasutra | Sentence: The 'kamasutra' and 'bombay cosmopolitan' are excellent and will have you tipsy in no time.	Positive
+195	Aspect: food | Sentence: Unfortunately, the food is outstanding, but everything else about this restaurant is the pits.	Positive
+196	Aspect: music | Sentence: We ate out in the back patio, which is worth it as it's cool and the music is hear well there.	Positive
+200	Aspect: food | Sentence: Diner food at bistro prices is a bummer....	Negative
+201	Aspect: lunch | Sentence: I went there for lunch and it was not as good as I expected from the reviews I read.	Neutral
+203	Aspect: atmosphere | Sentence: Good atmosphere, combination of all the hottest music dress code is relatively strict except on Fridays.	Positive
+206	Aspect: Personal pans | Sentence: Personal pans are the perfect size for those hungry nights.	Positive
+210	Aspect: atmosphere | Sentence: While the ambiance and atmosphere were great, the food and service could have been a lot better.	Positive
+211	Aspect: wine list | Sentence: The wine list is interesting and has many good values.	Positive
+212	Aspect: reservation | Sentence: The wine selection (by the glass and bottle) is wonderful and I always recommend that friends make a reservation if they're going to be in town.	Neutral
+216	Aspect: drinks | Sentence: Next time, we wouldn't dare ordering anything else other than some simple Asian appetizers and drinks.	Positive
+218	Aspect: waitress | Sentence: The waitress was very patient with us and the food is phenomenal!	Positive
+219	Aspect: cuisine | Sentence: Should you happen to be impressed by the cuisine definitely try it.	Positive
+225	Aspect: lamb dishes | Sentence: stick with the chicken, beef, and lamb dishes.	Positive
+227	Aspect: Decor | Sentence: Decor is charming.	Positive
+228	Aspect: food | Sentence: From the incredible food, to the warm atmosphere, to the friendly service, this downtown neighborhood spot doesn't miss a beat.	Positive
+235	Aspect: dish | Sentence: Good, because hey, it's more food, but bad because dim sum is supposed to be smaller portions so you can try out more dishes and smaller so that each dish is cheap.	Neutral
+236	Aspect: mushroom ravioli | Sentence: I had the tuna tartare with sake, mushroom ravioli with pinot noir, and the chocolate sampler with a dessert wine for $49.	Positive
+240	Aspect: mayonnaise | Sentence: They did not have mayonnaise, forgot our toast, left out ingredients (ie cheese in an omelet), below hot temperatures and the bacon was so over cooked it crumbled on the plate when you touched it.	Negative
+247	Aspect: bacos | Sentence: But don't ever order bacon late at nite (either platter or in sandwiches, for that matter don't from any take out place) as it is from the morning frying turns out hard almost like bacos, hurt my molars.	Negative
+248	Aspect: spring rolls | Sentence: Really tasty spring rolls and noodles for a good price though.	Positive
+250	Aspect: Pizza | Sentence: Pizza here is consistently good.	Positive
+252	Aspect: mussels in spicy tomato sauce | Sentence: The food is yummy, especially their cooked-to-perfection mussels in spicy tomato sauce and their shoestring crispy fries.	Positive
+253	Aspect: open faced cheese sandwich | Sentence: I asked for an open faced cheese sandwich and the manager basically told me to take my business elsewhere!	Neutral
+254	Aspect: service | Sentence: Go to Volare for 1st class service and terrific food.	Positive
+257	Aspect: food | Sentence: The food can get pricey but the prixe fixe tasting menu is the greatest food for a good price and they cater the food to any food allergies or food you don't like.	Negative
+260	Aspect: food | Sentence: I don't know about you guys, but when I go somewhere to eat I go for the food not for the atmosphere.	Neutral
+261	Aspect: exotic salad | Sentence: Their exotic salad is basic ly a delcious little green salad with a peanut sauce that is perfect before their sweet basil fried tofu.	Positive
+262	Aspect: entrees | Sentence: They have some great entrees here as well.	Positive
+264	Aspect: mozzarella | Sentence: He not only makes his own homemade mozzarella, but every pie is ultra fresh.	Positive
+265	Aspect: take-out pies | Sentence: Because of the delicate thin crust, take-out pies get soggy in their boxes.	Negative
+268	Aspect: bagel | Sentence: Their bagels are fine, but they are a little overcooked, and not really a 'special' bagel experience.	Neutral
+269	Aspect: ambience | Sentence: The prices and ambience are especially great considering it's in the West Village.	Positive
+270	Aspect: service | Sentence: Everything, from the soft bread, soggy salad, and 50 minute wait time, with an incredibly rude service to deliver below average food.	Negative
+274	Aspect: counter service | Sentence: The waitresses are nice--also you can just get counter service sit.	Positive
+276	Aspect: pizza | Sentence: The pizza was delivered cold and the cheese wasn't even fully melted!	Negative
+279	Aspect: atmosphere | Sentence: The atmosphere is nothing special, but it feels like a Sushi establishment in Tokyo.	Neutral
+282	Aspect: beef | Sentence: It was not above ordinary and the beef version had cheap (undercooked) beef.	Negative
+283	Aspect: portions | Sentence: Be careful of portions - they're HUGE.	Positive
+286	Aspect: black white shakes | Sentence: black white shakes came out good also.	Positive
+287	Aspect: taste | Sentence: DO not try unless you're just going there to hang out like the rest of the hipsters who apparently have no sense of taste.	Negative
+288	Aspect: dinner | Sentence: We arrived for dinner expecting to be impressed by a place that has an impressive past - but, that's just it -- the PAST!	Neutral
+289	Aspect: garlic | Sentence: The sauce on the pizza is sooo good with garlic and fresh tomatoes and they don't skimp.	Positive
+290	Aspect: pastrami | Sentence: The corned beef and pastrami are excellent, much less fatty than those big tourist places around Times Square.	Positive
+292	Aspect: food | Sentence: The food was terrific and the service classy, attentive, without being overbearing.	Positive
+293	Aspect: ambiance | Sentence: Zero ambiance to boot.	Negative
+297	Aspect: ceviche mix (special) | Sentence: We are very particular about sushi and were both please with every choice which included: ceviche mix (special), crab dumplings, assorted sashimi, sushi and rolls, two types of sake, and the banana tempura.	Positive
+298	Aspect: dish | Sentence: I had to ask her three times before she finally came back with the dish Ive requested.	Neutral
+299	Aspect: dim sum | Sentence: The dim sum here is only so-so.	Neutral
+301	Aspect: reservation | Sentence: It is so easy to get a reservation at a top place in NYC with a week's notice.	Positive
+303	Aspect: food | Sentence: I found the food, service and value exceptional everytime I have been there.	Positive
+304	Aspect: served | Sentence: This place would be so much better served by being run by a group that actually understands customer service.	Negative
+305	Aspect: service | Sentence: Great food, great lay out and awesome service.	Positive
+306	Aspect: manager | Sentence: After 2 tries by the waiter to take it away (we hadn't even looked at it yet, we had full beers yet to drink), the manager approached and told us they needed the table for people with reservations.	Negative
+310	Aspect: Manager | Sentence: We even had a visit from the Manager who wanted to make sure we were enjoying ourselves.	Positive
+311	Aspect: squid | Sentence: We were fans of the half-price Saturday night option until some inedible squid during a recent visit.	Negative
+312	Aspect: drinks | Sentence: The food is good, especially their more basic dishes, and the drinks are delicious.	Positive
+314	Aspect: French bistro fare | Sentence: Leon is an East Village gem: casual but hip, with well prepared basic French bistro fare, good specials, a warm and lively atmosphere.	Positive
+315	Aspect: parathas | Sentence: The parathas and kebabs are made when ordered ensuring a level of freshness that is unsurpassed.	Positive
+318	Aspect: SEASONAL beer | Sentence: (Always ask the bartender for the SEASONAL beer!!!	Positive
+319	Aspect: food | Sentence: Our food was great too!	Positive
+320	Aspect: dishes | Sentence: I ate here a week ago and found most dishes average at best and too expensive.	Negative
+321	Aspect: wine selection | Sentence: The wine selection (by the glass and bottle) is wonderful and I always recommend that friends make a reservation if they're going to be in town.	Positive
+322	Aspect: choices per course | Sentence: We were disappointed with the pre-fixe menu of only 2 choices per course (other restaurants offer 3 choices) and ended up ordering a la carte.	Neutral
+324	Aspect: management | Sentence: However, in the summer of 2003, it seems the management has changed and the great big door has been replaced for a glass front ridding itself of the dark romantic getup.	Neutral
+325	Aspect: tanks | Sentence: Where tanks in other Chinatown restaurants display a lurking myriad of sad-looking marine life in their murky waters, the tanks at Ping's are clear as glass with healthy-looking creatures who do not yet know that they will be part of some dim sum lover's brunch.	Positive
+326	Aspect: Prices | Sentence: Prices are very good.	Positive
+327	Aspect: food | Sentence: The food was spicy and delicious.	Positive
+329	Aspect: dessert | Sentence: From the complimentary chef app of a delicate butternut squash ravioli in a delicious truffle sauce to an amazing buttery and tender langostine entree to a dessert that I can't remember because of the fabulous Cakebread Cabernet we were drinking -- the whole evening was amazing.	Neutral
+330	Aspect: price | Sentence: would have rather tried terrace in the sky or water club for that price	Negative
+333	Aspect: table | Sentence: I was back-to-back with the diner at the table behind me and wait staff had to hoist trays over our heads as they squeezed past us again and again.	Negative
+334	Aspect: prices | Sentence: Very good service and very good prices.	Positive
+338	Aspect: served | Sentence: The service was terrible, we had to wait for everything and ask several of different people for the same thing before we were allowed to be served.	Negative
+340	Aspect: salads | Sentence: They have a huge selection of different cream cheeses and all of their salads are great.	Positive
+341	Aspect: food | Sentence: Incredible food at a very agreable price brings me back just about every other day to this authentic Thai restaurant.	Positive
+342	Aspect: fresh mozzarella | Sentence: The pizza is delicious - they use fresh mozzarella instead of the cheap, frozen, shredded cheese common to most pizzaria's.	Positive
+343	Aspect: foods | Sentence: I understand the area and folks you need not come here for the romantic, alluring ambiance or the five star service featuring a sommlier and a complicated maze of captain and back waiters - you come for the authentic foods, the tastes, the experiance.	Positive
+344	Aspect: prices | Sentence: The atmosphere isn't the greatest , but I suppose that's how they keep the prices down .	Positive
+345	Aspect: red wine | Sentence: We were seated outside and the waiter spilled red wine and hot tea on myself and my date.	Neutral
+346	Aspect: environment | Sentence: The environment is romantic, but the food is horrible, the service is pathetic, and gabriella lies about everything she could.	Positive
+347	Aspect: live jazz band | Sentence: The first time I went, and was completely taken by the live jazz band and atmosphere, I ordered the Lobster Cobb Salad.	Positive
+348	Aspect: food | Sentence: We all had the tasting menu and unlike some of the other reviews, I felt there was more than enough food.	Positive
+349	Aspect: atmoshpere | Sentence: The pizza is yummy and I like the atmoshpere.	Positive
+350	Aspect: waitress | Sentence: Last time I went here, the waitress didn't come back after taking our order.	Negative
+351	Aspect: service | Sentence: The table service could have been a little more attentive but as someone who also works in the service industry, I understood they were busy.	Neutral
+352	Aspect: flavors | Sentence: The food's dazzling flavors overwhelm the palate, truly embracing the beauty of authentic Thai cuisine.	Positive
+354	Aspect: prices | Sentence: Diner food at bistro prices is a bummer....	Negative
+355	Aspect: scallops | Sentence: We had the scallops as an appetizer and they were delicious and the sauce was wonderful.	Positive
+358	Aspect: Downstairs lounge | Sentence: Downstairs lounge is always a good attraction	Positive
+361	Aspect: food | Sentence: The food is delicious.	Positive
+364	Aspect: dinner | Sentence: However, I was there for a work dinner not long ago when my colleague from London noticed a very large waterbug on the ceiling.	Neutral
+365	Aspect: tuna | Sentence: Get the tuna of gari.	Positive
+366	Aspect: dinner | Sentence: The staff was too busy ordering sushi for dinner and then laying it out to eat on the bar to even bring me my check.	Neutral
+367	Aspect: beers | Sentence: After 2 tries by the waiter to take it away (we hadn't even looked at it yet, we had full beers yet to drink), the manager approached and told us they needed the table for people with reservations.	Neutral
+368	Aspect: taste | Sentence: That is a problem since we paid about 20 bucks a dish, and had to order 5 dishes to get a decent taste.	Neutral
+372	Aspect: tandoori salmon | Sentence: Try the tandoori salmon!	Positive
+373	Aspect: sashimi plate | Sentence: I found the variety of the sashimi plate to be satisfying - fresh and yummy.	Positive
+374	Aspect: sauce on the pizza | Sentence: The sauce on the pizza is sooo good with garlic and fresh tomatoes and they don't skimp.	Positive
+375	Aspect: wines by the glass | Sentence: Not enough wines by the glass either.	Negative
+379	Aspect: lamb chettinad | Sentence: The sweet lassi was excellent as was the lamb chettinad and the garlic naan but the rasamalai was forgettable.	Positive
+381	Aspect: onion soup | Sentence: The food was really good, I had the onion soup and it was one of the best ever.	Positive
+385	Aspect: place | Sentence: Its an excellent place to relax and the food is one of the best in the city of New York.	Positive
+387	Aspect: noodles with ground beef | Sentence: I ordered tamarind duck and my wife ordered noodles with ground beef, and we were both delighted by the way the dishes evoked Thai flavors in unexpected ways.	Positive
+388	Aspect: dinner | Sentence: To finish off such a delightful dinner experience you must have dessert, especially the White Chocolate Bread Pudding with Gelato and hot chocolate.	Positive
+399	Aspect: dough | Sentence: The combination of fresh tomato sauce, fresh mozz cheese, basil and the dough they make with imported flour, makes this is one of the better pizza's in NY.	Positive
+400	Aspect: dinner | Sentence: After dinner, take your date to the HUGE dance floor, probably one of the biggest you'll see in NY.	Neutral
+401	Aspect: tuna melt | Sentence: We ordered a tuna melt - it came with out cheese which just made it a tuna sandwich.	Negative
+402	Aspect: bar | Sentence: I would recommend putting your name down and then getting a drink at a local bar first though because of the wait time.	Neutral
+403	Aspect: reservations | Sentence: In reality (to maximize potential diners) they were still taking phone reservations and reallocating tables of those waiting in the lobby.	Negative
+405	Aspect: noise | Sentence: It's a place for people who pay a lot for mediocre food, noise and a chance to be with their fellow bridge and tunnel folks.	Negative
+407	Aspect: Staff | Sentence: Staff is very accomodating.	Positive
+408	Aspect: price | Sentence: Overall a disappointing experience for that price category.	Negative
+409	Aspect: meal | Sentence: I recommend this place to everyone who asks me where to go for a good meal.	Positive
+410	Aspect: pizza | Sentence: I have eaten a lot of pizza here.	Neutral
+411	Aspect: bottle of wine | Sentence: Our favorite meal is a pesto pizza, the house salad, and a good bottle of wine.	Positive
+412	Aspect: lunch | Sentence: Delicious food, excellent service, and a pretty atmosphere make this a great choice for dinner and the $5.99 lunch buffet makes it an even better choice for lunch!	Positive
+413	Aspect: service | Sentence: The food was delicious (I had a halibut special, my husband had steak), and the service was top-notch.	Positive
+415	Aspect: basmati rice dish | Sentence: The menu changed, portions were even smaller than before, a lentil dish was salty beyond edibility, a basmati rice dish lacked flavor.	Negative
+417	Aspect: food | Sentence: The food was delicious and the waiter was incredibly helpful and attentive (considering we were the only ones there for the first hour).	Positive
+422	Aspect: pepper powder | Sentence: It's like they took leftover chicken, poured oil and sprinkled pepper powder over it (the sauce was translucent and red).	Neutral
+423	Aspect: slice | Sentence: The ingredients taste fresher, the crust is thinner and crispier, the slice is less oily, and it's never burnt like it occasionally is at Joe's.	Positive
+425	Aspect: special effects | Sentence: It is a lot of fun with live entertainment and all kinds of Disney type special effects.	Positive
+426	Aspect: crust | Sentence: The ingredients taste fresher, the crust is thinner and crispier, the slice is less oily, and it's never burnt like it occasionally is at Joe's.	Positive
+427	Aspect: meal | Sentence: We could have made a meal of the yummy dumplings from the dumpling menu.	Positive
+430	Aspect: corriander | Sentence: The music does get a little loud at times, but it just made me want to lean closer to my beautiful wife, and as I did, I got a whiff of corriander.	Neutral
+431	Aspect: drinks | Sentence: The drinks are a saving grace, but service staff, please, get over yourselves.	Positive
+432	Aspect: mesclun | Sentence: My husband had the mesclun, salmon, and ice cream and he enjoyed all 3 courses.	Positive
+436	Aspect: lambchops | Sentence: The best thing I tasted were the lambchops.	Positive
+439	Aspect: outdoor seating | Sentence: Warm and friendly in the winter and terrific outdoor seating in the warmer months.	Positive
+440	Aspect: scents | Sentence: The strong scents coming from the left and right of me negatively affected my taste buds.	Negative
+442	Aspect: bagels | Sentence: Growing up in NY, I have eaten my share of bagels.	Neutral
+445	Aspect: quality | Sentence: If you are looking for a good quality, cheap eats - this is the place.	Positive
+448	Aspect: nosh (pastrami sandwich) | Sentence: Get the soup and a nosh (pastrami sandwich) for $8 and you're golden.	Positive
+449	Aspect: bruschetta | Sentence: The bruschetta and panini's are so yummy!	Positive
+450	Aspect: salads | Sentence: All the appetizers and salads were fabulous, the steak was mouth watering and the pasta was delicious!!!	Positive
+451	Aspect: reservations | Sentence: Yes, there might be a wait if you have no reservations.	Neutral
+452	Aspect: waiter | Sentence: Just bring someone who speaks Cantonese because waiter may not understand you.	Negative
+453	Aspect: setting | Sentence: Great food, good size menu, great service and an unpretensious setting.	Positive
+454	Aspect: beans on toast | Sentence: I recommend the meatballs and caprese salad and the beans on toast were a wonderful start to the meal!	Positive
+455	Aspect: wait building | Sentence: If you're craving for Haru's great food, especially the House Roll, but can't stand the wait building outisde, head across the street to their Sake Bar!	Negative
+456	Aspect: counter | Sentence: Behind this counter, two men are squeezed in.	Negative
+459	Aspect: staff | Sentence: And the staff is also young, energeic and hot!!!!	Positive
+460	Aspect: bagel | Sentence: Only drawback - they won't toast your bagel, and they don't make eggs for the bagel.	Negative
+461	Aspect: canned vegetables | Sentence: They smell like they stuff them with old canned vegetables like the spinach mushroom calzone.	Negative
+463	Aspect: table | Sentence: We were told that they were booked solid and no other table was available.	Negative
+464	Aspect: three course meal | Sentence: Monday nights are a bargain at the $28 prix fix - this includes a three course meal plus *three* glasses of wine paired with each course.	Positive
+465	Aspect: flavors | Sentence: The flavors are great, and the menu is extensive.	Positive
+466	Aspect: food | Sentence: The service is a little scatty at times but all is forgiven when the food arrives.	Positive
+467	Aspect: dinner menu | Sentence: The dinner menu is diverse and top-notch as well.	Positive
+471	Aspect: jukebox | Sentence: The jukebox plays everything from Italian Opera to The Strokes.	Positive
+475	Aspect: Thai noodles with shrimp and chicken and coconut juice | Sentence: I LOVE their Thai noodles with shrimp and chicken and coconut juice is the MUST!	Positive
+476	Aspect: roofdeck | Sentence: Great roofdeck, nice group of 30 somethings, but no music, kind of quiet.	Positive
+479	Aspect: Salads | Sentence: Salads are a delicious way to begin the meal.	Positive
+486	Aspect: sushi | Sentence: Furthermore, the rice had no seasoning, so the sushi was bland and disgusting.	Negative
+487	Aspect: service | Sentence: The only thing more wonderful than the food (which is exceptional) is the service.	Positive
+488	Aspect: food | Sentence: The food was delicious, the atmosphere was relaxed, and we have now adopted Plate 347 as our Secret on Second!	Positive
+490	Aspect: prices | Sentence: I recommend this spot to anyone who enjoys fine cuisine at reasonable prices.	Positive
+491	Aspect: reservations | Sentence: We were seated promptly as we had reservations, however after that the service was slow.	Positive
+493	Aspect: discount | Sentence: they did give a 15% discount at the end, wasn't enough, as they knew the service was horrible.	Negative
+494	Aspect: prices | Sentence: Reasonable prices.	Positive
+497	Aspect: food | Sentence: The food is amazing!!!!	Positive
+498	Aspect: spot | Sentence: Great spot, whether looking for a couple of drinks or quiet dinner.	Positive
+499	Aspect: management | Sentence: During our meal, the management came over and checked on us and even bought us a round of drinks.	Positive
+500	Aspect: food | Sentence: For the people who want great food plus great service, Roxy is a place to AVOID!	Negative
+501	Aspect: atmosphere | Sentence: Fabulous service, fantastic food, and a chilled out atmosphere and environment.	Positive
+505	Aspect: food | Sentence: The food is uniformly exceptional, with a very capable kitchen which will proudly whip up whatever you feel like eating, whether it's on the menu or not.	Positive
+506	Aspect: drinks | Sentence: You get what you pay for and with that logic in mind, Spice is a great place to grab some cheap eats and drinks in a beautiful setting.	Positive
+508	Aspect: Service | Sentence: Service was also horrible and the ambience is not that great.	Negative
+509	Aspect: entree range | Sentence: While the $20 entree range is not overly expensive, in New York City, there is definitely better food in that range, and so Sapphire, despite it's lovely atmosphere, will most likely not be a restaurant to which I will return.	Positive
+514	Aspect: shows | Sentence: The entertainment was great they have shows that go on through out the dinner.	Positive
+515	Aspect: vegetables | Sentence: If you are someone who appreciates simplicity, elegance, and wonderfully presented and tasting seafood and vegetables regardless of portion size, Kai is your place.	Positive
+517	Aspect: tomatoes | Sentence: The food is a diamond in rough -- the food is delicious and homemade with the perfect balance of herbs and tomatoes.	Positive
+518	Aspect: dinner | Sentence: Overall, the ingredients and technique are there and I am encouraged enough to return at lunch or dinner to see whether the boldness of the flavour palette improves.	Neutral
+523	Aspect: food | Sentence: The food was below average, the service was pathetic, there was no ambience at all.	Negative
+527	Aspect: toast | Sentence: They did not have mayonnaise, forgot our toast, left out ingredients (ie cheese in an omelet), below hot temperatures and the bacon was so over cooked it crumbled on the plate when you touched it.	Negative
+529	Aspect: priced | Sentence: Much more reasonably priced too!	Positive
+533	Aspect: manager | Sentence: A gentleman, maybe the manager, came to our table, and without so much as a smile or greeting asked for our order.	Negative
+536	Aspect: flavor | Sentence: Sauce was watery and the food didn't have much flavor.	Negative
+539	Aspect: Gulab Jamun (dessert) | Sentence: We ended our great experience by having Gulab Jamun (dessert) recommended by the waiter.	Positive
+540	Aspect: Thai food | Sentence: Spice is great Thai food, love the inexpensive appetizers.	Positive
+541	Aspect: waiter | Sentence: Our waiter was fine, the place looks nice in that not-trying-too-hard way, but at those prices, a little more should be expected of your food.	Positive
+542	Aspect: chinese food | Sentence: We actually left hungry and went across the street to Wo Hop at 15 Mott street for some good chinese food.	Positive
+545	Aspect: Bagels | Sentence: Outstanding Bagels, but you get what you pay for.	Positive
+551	Aspect: hostess | Sentence: The hostess is rude to the point of being offensive.	Negative
+552	Aspect: serves | Sentence: The eggplant parmesan is also great, and my friend who grew up in Manhattan claims that no one serves a better baked ziti with meatsauce.	Positive
+554	Aspect: foie gras terrine with figs | Sentence: The duck confit is always amazing and the foie gras terrine with figs was out of this world.	Positive
+555	Aspect: price | Sentence: The only weird thing was if we got a bottle, the waitress would have simply multiplied the glass price X4, which makes no sense whatsoever.	Negative
+557	Aspect: dish | Sentence: Considering their price of $6.25 for lunch special, the dish was ridiculously small.	Negative
+559	Aspect: tuna sandwich | Sentence: We ordered a tuna melt - it came with out cheese which just made it a tuna sandwich.	Negative
+560	Aspect: food | Sentence: The food always tastes fresh and served promptly.	Positive
+562	Aspect: eggs benedict | Sentence: I had their eggs benedict for brunch, which were the worst in my entire life, I tried removing the hollondaise sauce completely that was how failed it was.	Negative
+565	Aspect: Waitstaff | Sentence: The Waitstaff were very nice and suggested swordfish for my husband he enjoyed his meal.	Positive
+568	Aspect: menu | Sentence: The flavors are great, and the menu is extensive.	Positive
+569	Aspect: eggs | Sentence: Delicate spices, onions, eggs and a kick-ass roti.	Positive
+571	Aspect: table | Sentence: Also, if you don't want to sit at a certain table, you don't have to!	Positive
+572	Aspect: service | Sentence: Over time, the food quality has decreased substantially, it is a lot less crowded than it used to, and the service must definitely be part of the reason.	Negative
+573	Aspect: lunch | Sentence: On a hot day it was fabulous to stop in and enjoy lunch.	Positive
+574	Aspect: plain slice | Sentence: The plain slice is great and if you get toppings, the whole slice is topped with them, not sparsely sprinkled on like some places.	Positive
+575	Aspect: shows | Sentence: I loved everythig about it-especially the shows and actors.	Positive
+576	Aspect: drinks | Sentence: Oh, but wait, we were out of drinks (which were also delightfully overpriced).	Negative
+577	Aspect: glass front | Sentence: However, in the summer of 2003, it seems the management has changed and the great big door has been replaced for a glass front ridding itself of the dark romantic getup.	Negative
+579	Aspect: characters | Sentence: We had a great tiem watching the shows and characters and ar food was just what we were looking for.	Positive
+580	Aspect: dinner | Sentence: I have been to spice three times- twice during lunch and once at dinner.	Neutral
+583	Aspect: lay out | Sentence: Great food, great lay out and awesome service.	Positive
+584	Aspect: buffet | Sentence: The buffet had a nice selection.	Positive
+585	Aspect: service | Sentence: Won't or Can't is not in the service directory.	Positive
+587	Aspect: shrimp appetizers | Sentence: You must try the shrimp appetizers.	Positive
+588	Aspect: rolls | Sentence: Stay away from the two specialty rolls on the menu, though- too much avocado and rice will fill you up right quick.	Negative
+589	Aspect: desserts | Sentence: We had great desserts (including the best cannoli I've ever had) and then they offered an after dinner drink, on the house.	Positive
+590	Aspect: food | Sentence: The server was really cool and served us our food and drinks with a smile.	Neutral
+591	Aspect: sides | Sentence: Succulent steaks cooked precisely to your desired 'doneness' accompanied by salads and sides that don't look like leafy road kill.	Positive
+592	Aspect: served | Sentence: We both opted for a pasta dish and they were served timely and fresh.	Positive
+595	Aspect: food | Sentence: And their prices are very high - they actually think that they can get away with charging such prices for such terrible food and service!	Negative
+597	Aspect: pastrami on challah sandwich | Sentence: I didn't expect to like Nosh as much as I did, but the pastrami on challah sandwich I had was otherworldly, the soups are like Mom's, and the knishes give Yonah Schimmel's a run for its money.	Positive
+600	Aspect: food | Sentence: The last two times I ordered from here my food was soo spicy that I could barely eat it, and the spice took away from the flavor of the dish.	Negative
+604	Aspect: 2-person table | Sentence: After being told that our party of three would be seated in 10 minutes and watching other parties (multiples of 2 and higher) seated for 40 minutes, the three of us were squished into a small 2-person table.	Negative
+606	Aspect: service | Sentence: The food was amazing, and the service was prompt and helpful, but not over-bearing or rushed.	Positive
+607	Aspect: dessert | Sentence: skip dessert.	Negative
+608	Aspect: seafood | Sentence: After a seafood craving, i checked citysearch and chose to go to Fish based on a previous review and the citysearch info.	Neutral
+614	Aspect: Lobster Bisque | Sentence: I had Lobster Bisque it has 2 oz. of Maine Lobster in it.	Positive
+615	Aspect: music | Sentence: The music is the best among all the Indian restaurants I have visited.	Positive
+618	Aspect: dinner | Sentence: The entertainment was great they have shows that go on through out the dinner.	Neutral
+619	Aspect: food | Sentence: The waitress suggested glasses of wine that went very well with the food.	Neutral
+620	Aspect: setting | Sentence: Sure, the setting is nice.	Positive
+623	Aspect: Sangria | Sentence: My husband and I enjoy Sangria.	Positive
+626	Aspect: Pizza | Sentence: Pizza was a little soggy.	Negative
+627	Aspect: club soda, filled with ice, no lime | Sentence: Got club soda, filled with ice, no lime.	Neutral
+629	Aspect: Dosa | Sentence: A must for all the Dosa lovers.	Positive
+630	Aspect: dinner specials | Sentence: We usually just get some of the dinner specials and they are very reasonably priced and very tasty.	Positive
+632	Aspect: spinach and corn dumplings | Sentence: Great food (spinach and corn dumplings and massamman curry), very friendly and no nonsense service and a clean and funky bathroom.	Positive
+634	Aspect: rice | Sentence: It might have been a little too spicy for my friend, which you can couteract with eat more rice and keeping water on hand.	Neutral
+635	Aspect: meal | Sentence: We have never had any problems with charging the meal or the tip, and the food was delivered quickly, but we live only a few minutes walk from them.	Positive
+636	Aspect: dumpling | Sentence: You can also special order any kind of dumpling,etc.	Positive
+637	Aspect: ginger lemonade with vodka | Sentence: Try the Times Square cocktail -- ginger lemonade with vodka (also available without vodka.)	Positive
+638	Aspect: tiramisu | Sentence: word of advice, save room for pasta dishes and never leave until you've had the tiramisu.	Positive
+639	Aspect: calamari | Sentence: You should pass on the calamari.	Negative
+640	Aspect: ambience | Sentence: If it isn't for the food (A+++), it must be the service or the ambience.	Positive
+641	Aspect: service | Sentence: Add to that great service and great food at a reasonable price and you have yourself the beginning of a great evening.	Positive
+642	Aspect: pizza | Sentence: Our son loves pizza and we have a certified Neapolitan pizzaria in our home city (Seattle), we liked this nearly as much - and the differences were more about personal preference than any reflection on either restaurant.	Positive
+643	Aspect: mussels | Sentence: A glass of Leaping Lizard, a glass of prosecco, and the mussels had everything happy.	Positive
+645	Aspect: drinks | Sentence: We love the food, drinks, and atmosphere!	Positive
+646	Aspect: food | Sentence: The food is prepared quickly and efficiently.	Positive
+647	Aspect: box wine | Sentence: Then, get ripped on free box wine.	Positive
+649	Aspect: service | Sentence: The service is outstanding and my crab-cake eggs benedict could not have been better.	Positive
+651	Aspect: money | Sentence: Besides, when you have bad service, that's less money you have to tip.	Negative
+652	Aspect: staff | Sentence: Complimentary stuff kept coming, and when the waiter saw me opening a gift, I received my dessert on a plate that had Happy Birthday written on it, with a candlevery nice touch, and attentive staff.	Positive
+656	Aspect: dish | Sentence: BUt their best dish is thh Thai spiced curry noodles with shrimp - a dish that would cost $23.95 is most places, but it is $16 here.	Positive
+657	Aspect: price | Sentence: The lobster sandwich is $24 and although it was good it was not nearly enough to warrant that price.	Negative
+658	Aspect: dishes | Sentence: They never brought us complimentary noodles, ignored repeated requests for sugar, and threw our dishes on the table.	Negative
+659	Aspect: terrace | Sentence: In summer-eat outside on a terrace (another great feature of Suan)!!!	Positive
+662	Aspect: dishes | Sentence: Just stick with the small dishes!	Negative
+665	Aspect: Dinner | Sentence: Dinner took almost 4 hours without any lag time.	Negative
+666	Aspect: service | Sentence: they did give a 15% discount at the end, wasn't enough, as they knew the service was horrible.	Negative
+668	Aspect: Thai | Sentence: If you want good authentic Thai this place is not the place to go.	Negative
+670	Aspect: server | Sentence: The menu looked good, except for offering the Chilean Sea Bass, but the server does not offer up the specials that were written on the board outside.	Negative
+671	Aspect: hot dogs | Sentence: Try the hot dogs too, they're snappy and delicious.	Positive
+673	Aspect: dumpling | Sentence: If you have a dumpling fetish i suggest you try some here!	Positive
+674	Aspect: wait | Sentence: We were told that the wait was about twenty minutes and there would be no problem for our 8:00 pm curtain call.	Neutral
+677	Aspect: wine | Sentence: The wine is always good, the tapas are always yummy, especially with the warm pita bread.	Positive
+678	Aspect: menu | Sentence: The menu changed, portions were even smaller than before, a lentil dish was salty beyond edibility, a basmati rice dish lacked flavor.	Negative
+682	Aspect: lunch | Sentence: They are served with a free appetizer and the portions are perfect for lunch.	Neutral
+683	Aspect: thin crusted pizza | Sentence: The pizza is the best if you like thin crusted pizza.	Neutral
+685	Aspect: lunch buffet | Sentence: Excellent lunch buffet for only $6.95.	Positive
+687	Aspect: waitress | Sentence: Every waitress and customer who passed by me bumped into my chair.	Neutral
+688	Aspect: service | Sentence: The ambience is authentic and relaxing and we have always received attentive and prompt service.	Positive
+689	Aspect: Service | Sentence: Service was prompt, friendly and great.	Positive
+690	Aspect: bartender | Sentence: (Always ask the bartender for the SEASONAL beer!!!	Neutral
+694	Aspect: service | Sentence: Nice ambiance, nice little bar, good bartender, Francois, and good service.	Positive
+695	Aspect: dishes | Sentence: While this isn't classical restaurant fare, the chef has given new life to an old cuisine with some really innovative and tasty dishes that are genuinely Indian without being heavy or same old restaurant burn-outs.	Positive
+696	Aspect: waitress | Sentence: Again, the waitress was awesome.	Positive
+698	Aspect: paratha bread | Sentence: The bread is the soft paratha bread (unlike the plain bread they use in Calcutta), and the stuffing is tandoori styled and very flavorful.	Positive
+699	Aspect: portions | Sentence: While the prices are nothing special, the portions are huge.	Positive
+702	Aspect: wine | Sentence: overall, a solid restaurant and at less than $40pp (including wine), a solid deal as well.	Neutral
+703	Aspect: place | Sentence: Right off the L in Brooklyn this is a nice cozy place with good pizza.	Positive
+704	Aspect: check | Sentence: Had we been stalling I could understand where they were coming from, but we had been there less than an hour and they hadn't even brought us a check yet!	Negative
+706	Aspect: nori | Sentence: If the omakase is to showcase technique and variety, serving almost 40% of items BBQ-ed and a spicy tuna roll wrapped with not-so-fresh nori seems to be a rather limp performance.	Negative
+708	Aspect: dim sum atmosphere | Sentence: The wait here is long for dim sum, but if you don't like sharing tables or if the typical raucous dim sum atmosphere is not your gig, this is a sleek (for Chinatown) alternative.	Neutral
+709	Aspect: place | Sentence: This is such a lovely, peaceful place to eat outside.	Positive
+710	Aspect: staff | Sentence: The staff is very kind and well trained, they're fast, they are always prompt to jump behind the bar and fix drinks, they know details of every item in the menu and make excelent recomendations.	Positive
+711	Aspect: Delivery | Sentence: Delivery is fast too.	Positive
+712	Aspect: rice | Sentence: They had scrapped the bottom of the vessel in which they make the rice -RESULT - WE HAD LARGE CHUNKS OF BURNT RICE IN OUR SERVING BOWL.	Negative
+713	Aspect: service | Sentence: Great friendly service, Fast seating, Fast Delivery, Excellent sushi.	Positive
+714	Aspect: truffle oil | Sentence: The plain pizza was soggy and the creative wild mushroom(third generation-Fornini) pizza we had was drenched with truffle oil in the middle( again making it soggy) and nothingon the rest.	Neutral
+716	Aspect: sauces | Sentence: The sauces used are also not that exciting.	Negative
+717	Aspect: brunch | Sentence: Since my first dinner I have had the chance to have brunch at Orsay 3x.	Neutral
+718	Aspect: meal | Sentence: We always have a delicious meal and always leave feeling satisfied.	Positive

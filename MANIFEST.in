@@ -1,0 +1,8 @@
+include LICENSE
+include README*.md
+include THIRD_PARTY_NOTICES.md
+include CITATION.cff
+recursive-include docs *.md *.json
+recursive-include examples *.py *.json
+recursive-include tests *.py
+recursive-include dataset *.tsv *.md *.json

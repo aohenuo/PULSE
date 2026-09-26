@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "Please cite the PULSE paper when using its method; this file describes the software core."
+title: "PULSE demonstration selection: tensor core"
+type: software
+authors:
+  - name: "PULSE contributors"
+version: 0.1.0
+license: MIT

@@ -1,115 +1,232 @@
-# PULSE
+# PULSE User Guide
 
-Clean experiment code for PULSE-guided in-context exemplar selection.
+PULSE uses sparse autoencoder (SAE) features to select few-shot demonstrations from training examples for a language model prompt.
 
-This repository keeps only the public-facing core:
+The package provides two commands:
 
-- `scripts/layer_a/run_selection_accuracy.py`: Layer A candidate-set scoring.
-- `scripts/layer_b/accuracy_eval.py`: Layer B retrieval accuracy.
-- `scripts/layer_b/generative_eval.py`: generative-task utility and downstream generation evaluation.
-- Core method: `pulse`, with `softd2_fpw` retrieval enabled by default.
+- `pulse-select`: reads precomputed SAE features and returns the selected example indices.
+- `pulse-eval`: reads raw text, loads a language model and an SAE, extracts features, selects demonstrations, and generates predictions.
 
-Experiment outputs, logs, paper drafts, caches, launch queues, and archived
-ablation scripts are intentionally excluded.
+## 1. Installation
 
-## Setup
+Requires Python 3.10+ and PyTorch 2.1+. Run the following from the project root:
 
 ```bash
-cd PULSE
 python -m venv .venv
 source .venv/bin/activate
-pip install -r requirements.txt
+python -m pip install --upgrade pip
+python -m pip install -e .
 ```
 
-Set `PULSE_HF_CACHE_DIR` only if you want model and SAE loading to use a
-pre-existing cache.
+On Windows, activate the environment with `.venv\Scripts\activate`. If you already have a CUDA-enabled PyTorch environment, you can install the package in that environment.
 
-## Data
-
-All datasets are loaded from local files. Place files under `data/`, pass
-`--data_root data` for classification scripts, or pass `--data-root data` for
-generative scripts.
-
-Expected local filenames are documented in `data/README.md`.
-
-## Layer A
-
-Layer A scores sampled k-shot candidate sets and selects the top set under
-PULSE.
+For inference with a real model, also install:
 
 ```bash
-python scripts/layer_a/run_selection_accuracy.py \
-  --datasets agnews \
-  --layer 12 \
-  --disc-queries 16 \
-  --eval-queries 16 \
-  --pool-size 200 \
-  --n-cand 16 \
+python -m pip install -e '.[eval]'
+```
+
+## 2. Quick start: select demonstrations
+
+The following commands do not download a model or require a GPU:
+
+```bash
+pulse-select examples/tiny.json --n-shot 2 --output outputs/selection.json
+python examples/select_context.py
+```
+
+The output contains:
+
+- `indices`: selected candidate-pool row indices, starting at 0 and ordered by greedy selection.
+- `selected_ids`: corresponding IDs when the input provides `pool_ids`.
+- `pulse_weight` and `active_features`: retrieval weights and the number of nonzero features.
+- `config`, `method`, and `input_sha256`: configuration, method, and input-file hash.
+
+## 3. Use your own features
+
+### JSON input
+
+Save the following as `input.json`:
+
+```json
+{
+  "discovery": [
+    {
+      "utilities": [0.0, 0.5, 1.0],
+      "activations": [[0, 2], [1, 1], [2, 0]]
+    }
+  ],
+  "topk_each_sign": 1,
+  "query_sae": [2, 0],
+  "pool_sae": [[2, 0], [0, 2], [1, 1]],
+  "pool_ids": ["train-0", "train-1", "train-2"]
+}
+```
+
+Run:
+
+```bash
+pulse-select input.json --n-shot 2 --output outputs/selection.json
+```
+
+Each `discovery` entry represents one training query. `utilities` contains the utilities of its candidate contexts, and `activations` contains their SAE features in the same order. For classification, utility is the score difference between the correct label and the highest-scoring incorrect label. For generation, utility is the length-normalized conditional log likelihood of the reference answer.
+
+If weights are already available, replace `discovery` and `topk_each_sign` with `"pulse_weight": [0.8, -0.3]`. Do not provide `pulse_weight` and `discovery` together.
+
+| Field | Shape | Meaning |
+| --- | --- | --- |
+| `query_sae` | `[D]` | SAE features of the current query |
+| `pool_sae` | `[P, D]` | SAE features of P candidate examples |
+| `pulse_weight` | `[D]` | Learned sparse weights |
+| `discovery[q].utilities` | `[N_q]` | Candidate-context utilities for training query q |
+| `discovery[q].activations` | `[N_q, D]` | Features of those candidate contexts |
+| `pool_ids` | `[P]` | Optional unique candidate-example IDs |
+
+All features must use the same model, SAE, layer, feature order, and pooling method. Retrieval encodings for the query and candidate examples must exclude their respective answers. Each discovery query needs at least two candidate contexts, with at least two unordered candidate pairs in total. All numeric inputs must be finite, and the retrieval weights must contain at least one nonzero value.
+
+### Python API
+
+```python
+import torch
+from pceu_rtr import RetrievalConfig, learn_pulse_weight, select_pulse_context
+
+utilities = [torch.tensor([0.0, 0.5, 1.0])]
+activations = [torch.tensor([[0., 2.], [1., 1.], [2., 0.]])]
+query_sae = torch.tensor([2., 0.])
+pool_sae = torch.tensor([[2., 0.], [0., 2.], [1., 1.]])
+
+weight = learn_pulse_weight(utilities, activations, topk_each_sign=1)
+indices = select_pulse_context(
+    query_sae,
+    pool_sae,
+    weight,
+    config=RetrievalConfig(n_shot=2, shortlist=50, beta=0.3, lambda_r=0.3),
+)
+print(indices)
+```
+
+Use `indices` to retrieve demonstrations from your training-example list. The list order must match the row order of `pool_sae`. The number of returned examples is at most `min(n_shot, shortlist, pool_size)`. For large feature tensors, use the Python tensor API directly.
+
+### Optional semantic fusion
+
+The default `--method pulse` uses SAE retrieval. Fusion methods also require `query_sbert` (`[H]`) and `pool_sbert` (`[P, H]`) in the JSON input:
+
+```bash
+pulse-select input-with-semantic.json --method classification-fusion --alpha 0.5
+pulse-select input-with-semantic.json --method generation-fusion --alpha 0.5
+```
+
+## 4. Run predictions from raw data
+
+### Prepare the model
+
+Default settings:
+
+- Language model: `google/gemma-2-2b`
+- SAE release: `gemma-scope-2b-pt-res-canonical`
+- SAE ID: `layer_12/width_16k/canonical`
+- Device and precision: `cuda` and `bfloat16`
+
+Obtain access to the model and authenticate with Hugging Face on your machine, or prepare a local model cache. Use `--local-files-only` to load only from the cache. GPU memory requirements depend on the model, prompt length, and number of demonstrations.
+
+### Prepare training and evaluation data
+
+Use a separate JSONL training file with one example per line:
+
+```json
+{"id":"train-0","input":"A team wins the match.","target":"Sports"}
+```
+
+| Task | `input` | `target` |
+| --- | --- | --- |
+| `agnews` | News text | `World`, `Sports`, `Business`, `Sci/Tech` |
+| `rest14`, `lap14` | Text to classify, including aspect information | `Positive`, `Negative`, `Neutral` |
+| `emoc` | Dialogue text | `angry`, `happy`, `others`, `sad` |
+| `commongen` | Comma-separated concepts | Reference sentence |
+| `gsm8k` | Math question | Worked solution ending in `#### <number>` |
+
+Evaluation data may use the same JSONL format or the TSV format in the project's `dataset/` directory:
+
+- Classification tasks: `index`, `text`, `gold`.
+- CommonGen: `index`, `concepts`, `reference`.
+- GSM8K: `index`, `question`, `answer` (or `target`; do not provide both target columns).
+
+With `--task` specified, `pulse-eval` reads `dataset/<task>.tsv` by default. After installation, it can also read the copy installed with the package. Use `--eval-data` to supply your own TSV or JSONL file. Training data is not bundled; you must provide a separate labeled file with `--train-data`.
+
+Training examples must have answers. GSM8K evaluation examples may omit answers, in which case the program generates predictions without scoring them. The program removes train/evaluation overlaps after case-insensitive whitespace normalization and deduplicates training inputs. At least `pool_size + discovery_queries` training examples must remain so it can sample disjoint candidate-pool and feature-discovery rows.
+
+### Run one task
+
+```bash
+pulse-eval \
+  --task agnews \
+  --train-data /path/to/train/agnews.jsonl \
+  --output outputs/agnews-run \
+  --limit 8 \
+  --pool-size 32 \
+  --discovery-queries 2 \
+  --candidate-sets 3 \
+  --topk-each-sign 64 \
   --n-shot 4 \
-  --results_dir experiments/layer_a
+  --max-input-tokens 2048
 ```
 
-## Layer B
+Replace the training path with the path to your file. `--limit 0` processes every evaluation example. Use a new or empty output directory for each run.
 
-Layer B retrieves k exemplars from a larger pool with PULSE. By default it uses
-FPW scores and softD2 quotas.
+### Run all tasks
+
+After preparing a training file for each task, run:
 
 ```bash
-python scripts/layer_b/accuracy_eval.py \
-  --datasets agnews \
-  --layer 12 \
-  --disc-queries 16 \
-  --eval-queries 16 \
-  --pool-size 200 \
-  --n-cand 16 \
-  --n-shot 4 \
-  --results_dir experiments/layer_b
+for task in agnews rest14 lap14 emoc commongen gsm8k; do
+  pulse-eval \
+    --task "$task" \
+    --train-data "/path/to/train/$task.jsonl" \
+    --output "outputs/$task-run" \
+    --limit 0 --pool-size 32 --discovery-queries 2 \
+    --candidate-sets 3 --topk-each-sign 64 \
+    --max-input-tokens 2048 --max-new-tokens 256 || break
+done
 ```
 
-Use larger values for full experiments, for example `--eval-queries 512`,
-`--pool-size 2000`, and `--disc-queries 64` or higher. Pass
-`--retrieval-score blend` to explicitly use the `blend_03` greedy selector.
+### Common options
 
-## Generative Tasks
+| Option | Default | Description |
+| --- | --- | --- |
+| `--n-shot` | 4 | Number of demonstrations to select |
+| `--shortlist` | 50 | Number of candidates retained before greedy selection |
+| `--beta` | 0.3 | Mixture weight for full-SAE similarity |
+| `--lambda-r` | 0.3 | Demonstration redundancy penalty |
+| `--pool-size` | 2000 | Training candidate-pool size for evaluation |
+| `--discovery-queries` | 64 | Number of training queries used to learn feature weights |
+| `--candidate-sets` | 32 | Number of demonstration sets tried per training query |
+| `--topk-each-sign` | 512 | Maximum number of positive and negative features retained per sign |
+| `--limit` | 0 | Number of evaluation examples; 0 means all |
+| `--seed` | 42 | Sampling seed |
+| `--max-input-tokens` | 2048 | Input token limit; longer inputs raise an error |
+| `--max-new-tokens` | 128 | Generated token limit |
 
-The generative entry point learns PULSE weights from teacher-forced utility,
-then evaluates candidate-set ranking, retrieval utility, and optional
-downstream generation.
+The first four options apply to both `pulse-select` and `pulse-eval`. The other options in the table apply to `pulse-eval`. For `pulse-select`, `topk_each_sign` comes from the input JSON. To see all available options, run:
 
 ```bash
-python scripts/layer_b/generative_eval.py \
-  --task common_gen \
-  --layer 12 \
-  --disc-queries 2 \
-  --eval-queries 3 \
-  --candidate-pool-size 6 \
-  --pool-size 48 \
-  --n-shot 2 \
-  --data-root data \
-  --output experiments/generative/common_gen_smoke.json
+pulse-select --help
+pulse-eval --help
 ```
 
-Supported tasks are `agnews_headline`, `common_gen`, and `gsm8k`. They expect
-local files under `data/` as documented in `data/README.md`.
+### Inspect the output
 
-## Configuration
+- `predictions.jsonl`: records each input, reference answer, prediction, selected training-example IDs, prompt hash, and correctness when it can be computed.
+- `summary.json`: records the configuration, model information, data hashes, sample split, runtime, and metrics after successful completion.
+- `discovery.pt`: stores the learned weights, utilities, and SAE activation tensors.
 
-`configs/layer_a.yaml` and `configs/layer_b.yaml` are lightweight examples for
-recording experiment settings. The executable entry points are the scripts
-above.
+Classification tasks select answers using conditional label log probabilities and report accuracy. CommonGen saves generated sentences and references; compute BLEU separately. GSM8K extracts the number after `####` for matching. A generation without that marker is counted as incorrect, while an example without a parseable reference answer is not scored.
 
-## Environment Variables
+If `predictions.jsonl` is only partially written and there is no complete `summary.json`, the run did not finish successfully. Overlong prompts raise an error; adjust the input budget or the number of demonstrations, then use a new output directory.
 
-- `PULSE_HF_CACHE_DIR`: Hugging Face hub cache path.
-- `PULSE_MODEL_REVISION`: optional model revision for local/offline loading.
-- `PULSE_DATA_SPLIT_MODE`: `full_test` or `paper_eval`.
+## 5. Run tests and build the package
 
-## Anonymous Release
-
-The repository intentionally omits experiment logs, local caches, private data,
-paper drafts, identifying metadata, and machine-specific paths. Initialize a fresh
-git history before publishing if you need an anonymous repository.
-
-## License
-
-MIT.
+```bash
+python -m pip install -e '.[dev]'
+python -m pytest
+python -m build
+```

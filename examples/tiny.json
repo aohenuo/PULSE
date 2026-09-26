@@ -1,0 +1,12 @@
+{
+  "discovery": [
+    {
+      "utilities": [0.0, 0.5, 1.0],
+      "activations": [[0, 2, 0], [1, 1, 1], [2, 0, 0]]
+    }
+  ],
+  "topk_each_sign": 1,
+  "query_sae": [2, 0, 0],
+  "pool_sae": [[2, 0, 0], [0, 2, 0], [1, 1, 1], [1, 0, 2]],
+  "pool_ids": ["train-0", "train-1", "train-2", "train-3"]
+}

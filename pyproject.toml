@@ -1,19 +1,31 @@
 [build-system]
-requires = ["setuptools>=68"]
+requires = ["setuptools>=77", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "pulse"
+name = "pceu-rtr-core"
 version = "0.1.0"
-description = "PULSE-guided in-context exemplar selection experiments"
+description = "PULSE demonstration selection from precomputed sparse autoencoder features"
 readme = "README.md"
-license = { text = "MIT" }
 requires-python = ">=3.10"
-dependencies = [
-  "torch",
-  "transformers>=4.38,<5",
-  "sae-lens==6.37.1",
-]
+license = "MIT"
+license-files = ["LICENSE", "THIRD_PARTY_NOTICES.md"]
+dependencies = ["torch>=2.1"]
+
+[project.optional-dependencies]
+dev = ["pytest>=7", "build>=1"]
+eval = ["transformers==4.57.6", "sae-lens==6.5.0", "sentencepiece>=0.2"]
+
+[project.scripts]
+pulse-select = "pceu_rtr.cli:main"
+pulse-eval = "pceu_rtr.evaluate:main"
 
 [tool.setuptools.packages.find]
-include = ["pulse*"]
+where = ["src"]
+
+[tool.setuptools.data-files]
+"share/pceu-rtr-core/dataset" = ["dataset/*.tsv"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
